@@ -1,0 +1,8 @@
+
+######################################################################
+## PARAMETER CARD FÜR GIP-EFT MODELL (MadGraph5_aMC@NLO)
+######################################################################
+
+Block GIPPARAMS
+    1 1.500293e-02 # kappaNA (Effective Non-Associative Deficit)
+    2 750.00 # OmegaGIP (Saturation Scale in GeV)

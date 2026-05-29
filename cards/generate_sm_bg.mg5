@@ -1,0 +1,14 @@
+import model sm
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+# Monojet Hintergrund
+generate p p > j vl vl~
+output PROC_SM_BG -f
+launch PROC_SM_BG
+  set nevents 100000
+  set ebeam1 6500
+  set ebeam2 6500
+  set ptj 20
+  set etaj 5.0
