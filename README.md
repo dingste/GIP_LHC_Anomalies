@@ -8,17 +8,19 @@ Using a full simulation pipeline consisting of **MadGraph5_aMC@NLO** and **Delph
 
 ## Repository Structure
 
+- `model/GIP_UFO/`: Full **Universal FeynRules Output (UFO)** model files for MadGraph5_aMC@NLO.
 - `cards/`: MadGraph5 configuration files (param_card, run_card, etc.)
 - `delphes/`: Detector configuration and ATLAS-specific GIP cards.
 - `analysis/`: Python scripts for data processing and significance calculation.
 - `plots/`: Generated plots showing the GIP signature and HL-LHC projections.
-- `docs/`: Technical documentation and validation reports (e.g., Run_03 results).
+- `docs/`: Technical documentation, validation reports (Run_03), and **systematic uncertainty analysis**.
 
 ## Quick Start
 
-1.  **Simulation:** Run MadGraph5 with the provided cards in `cards/`.
-2.  **Detector Simulation:** Use Delphes with the `delphes/delphes_card_ATLAS_GIP.tcl`.
-3.  **Analysis:** Run `analysis/selection_cuts.py` to apply the MET window and asymmetry filter.
+1.  **Model Installation:** Copy the `model/GIP_UFO` directory into your MadGraph5 `models/` folder.
+2.  **Simulation:** Run MadGraph5 with the provided cards in `cards/`.
+3.  **Detector Simulation:** Use Delphes with the `delphes/delphes_card_ATLAS_GIP.tcl`.
+4.  **Analysis:** Run `analysis/selection_cuts.py` to apply the MET window and asymmetry filter.
 
 ## Author
 Dieter Steuten | orcid 0009-0007-3646-7031
