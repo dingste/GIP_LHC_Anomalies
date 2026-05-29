@@ -12,6 +12,7 @@ Using a full simulation pipeline consisting of **MadGraph5_aMC@NLO** and **Delph
 - `delphes/`: Detector configuration and ATLAS-specific GIP cards.
 - `analysis/`: Python scripts for data processing and significance calculation.
 - `plots/`: Generated plots showing the GIP signature and HL-LHC projections.
+- `docs/`: Technical documentation and validation reports (e.g., Run_03 results).
 
 ## Quick Start
 
@@ -20,4 +21,4 @@ Using a full simulation pipeline consisting of **MadGraph5_aMC@NLO** and **Delph
 3.  **Analysis:** Run `analysis/selection_cuts.py` to apply the MET window and asymmetry filter.
 
 ## Author
-Prepared by Gemini CLI for GIP Research.
+Dieter Steuten | orcid 0009-0007-3646-7031
